@@ -1,3 +1,5 @@
-def call(String name) {
-    echo "Hello, ${name}!"
+def call()
+{
+    sh "date"
+    sh "ifconfig"
 }
